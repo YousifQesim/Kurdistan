@@ -1,0 +1,700 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@1,300&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@1,600&family=Roboto:ital,wght@1,300&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@1,600&family=Roboto:ital,wght@1,300&family=Rubik&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* responsiving the website */
+
+@media (min-width: 1410px) {
+
+       .flag p{
+          float: right;
+          width: 49%;
+       line-height: 30px;
+       letter-spacing: 0.5px;
+       font-family: 'Times New Roman', Times, serif;
+       margin-top:210px;
+       color: white;
+       font-weight: bold;
+       
+       
+       }
+         .flag img{
+           
+          margin-top: 160px;
+          margin-left: 10px;
+          border-radius: 10px ;
+       }
+        .newroz,.ramazan,.qurban,.sarysall{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+ .newroz img,.qurban img{
+  float: left;
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 170px;
+    
+  }
+  .jazhni_nawroz h1,.jazhni_qurban h1,.jazhni_ramazan h1,.jazhni_sarysall h1{
+  
+    text-align: center;
+       position: relative;
+       bottom:  20px;
+     }
+ .ramazan img,.sarysall img{
+  float: right;
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-right: 170px;
+ 
+  }
+  
+  .jazhni_nawroz{
+    color: white;
+    width: 50%;
+    margin-top: 200px;
+    float: right;
+    margin-right: 170px;
+    font-weight: bold;
+    font-size: 10px;
+  }
+ 
+  
+  .jazhni_ramazan{
+    color: white;
+    width: 50%;
+    margin-top: 240px;
+    float: left;
+    margin-left: 170px;
+    font-weight: bold;
+  }
+  .jazhni_qurban{
+    color: white;
+    width: 50%;
+    margin-top: 240px;
+    float: right;
+    margin-right: 170px;
+    font-weight: bold;
+    
+  }   
+    .jazhni_sarysall{
+      color: white;
+      width: 50%;
+      margin-top: 260px;
+      float: left;
+      margin-left: 170px;
+      font-weight: bold;
+
+    }
+
+ }
+ @media (max-width: 1410px) {
+    .flag {
+        display: block;
+        text-align: center;
+       }
+       .flag p{
+          text-align: center;
+          width: 90%;
+       line-height: 30px;
+       letter-spacing: 0.5px;
+       font-family: 'Times New Roman', Times, serif;
+       margin-top:40px;
+       transition: all 0.8s;
+    margin-left: 30px;
+    color: white;
+       }
+         .flag img{
+             margin-top: 90px;
+           width: 90%;
+           border-radius: 10px;
+           transition: all 0.5s;
+          
+          
+       }
+       .newroz,.ramazan,.qurban,.sarysall{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      
+     .newroz img,.qurban img{
+        height: 380px;
+        width: 380px;
+        border-radius: 50%;
+      
+        margin-left: 170px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 80px;
+        
+      }
+      .ramazan img,.sarysall img{
+        
+          height: 380px;
+          width: 380px;
+          border-radius: 50%;
+         
+       display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+          
+        }
+        .jazhni_nawroz h1,.jazhni_qurban h1,.jazhni_ramazan h1,.jazhni_sarysall h1{
+  
+          text-align: center;
+             position: relative;
+             bottom:  20px;
+           }     
+          
+          .jazhni_ramazan,.jazhni_nawroz,.jazhni_qurban,.jazhni_sarysall{
+            color: white;
+            width: 80%;
+            display: block;
+            margin: 80px auto;
+
+          }
+          
+
+ }
+@media (max-width: 685px) {
+   .sections{display: none;
+    transition: all 1s;
+}
+.navbarrr{display: none;}
+.responsive{
+    
+        margin: auto;
+        width: 45%;
+        padding: 10px;
+        text-align: center;
+        
+  
+  }
+  .resoinsuve_kurdistan{
+      display: inline-block;
+   
+    font-size: 1.6rem;
+    margin:7px 0px 0px 0px ;
+ color: #D3E0EA;
+ font-family: 'Lobster', cursive;
+ text-decoration: none
+ 
+ 
+ 
+  }
+  #welcome{
+      transition: all 1s;
+    text-align: center;
+    margin-top: 0px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px black;
+    
+}
+#welcome-p{
+    transition: all 1s;
+    text-align: center;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size:15px;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px black;
+    border-right: solid 1px white;
+    border-left: solid 1px white;
+}
+  .kurdistan2{
+    margin-left: 15px;
+    height: 30px;
+
+  }
+  .responsive{
+      display: none;
+  }
+  
+  }
+  @media (min-width: 685px) {
+    .nav{
+        opacity: 0;
+       }
+       .assayy li{
+        opacity: 1;
+        transition: all 1s;
+      }
+      #responsive{
+        display: none;
+      }
+      .navbarrr{
+          display: contents;
+        }
+      .resoinsuve_kurdistan{display: none;}
+      #welcome{
+        text-align: center;
+        margin-top: 0px;
+        color: #fff;
+        font-family: 'Rubik', sans-serif;
+        font-size: 85px;
+        font-weight: 400;
+        text-shadow: 1px 1px 3px black;
+        
+    }
+    #welcome-p{
+        text-align: center;
+        margin-top: 0px;
+        color: #fff;
+        font-family: 'Rubik', sans-serif;
+        font-size:20px;
+        font-weight: 500;
+        text-shadow: 1px 1px 3px black;
+        border-right: solid 1px white;
+        border-left: solid 1px white;
+    }
+   
+   }
+
+/* The main section (First Page) */
+
+  .main_section{
+      background-image: url(images/180913576_3923277144446826_833391064184400458_n.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed ;
+  min-height: 100vh;
+}
+.main-content{
+  position: relative;
+  top: 120px;
+}
+.main-content #welcome{
+  position: relative;
+bottom: 20px;
+}
+
+.assayy{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    background-color: #276678;
+    height: 7vh;
+
+
+}
+.assayy li{ 
+    margin: 13px 0px 0px 0px;
+    width: 20vw;
+    text-align: center;
+}
+.assayy li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+#kurdistan
+{
+   font-size: 1.6rem;
+   margin:7px 0px 0px 0px ;
+position: relative;
+bottom:  8px;
+color: #D3E0EA;
+font-family: 'Lobster', cursive;
+}
+.nav div
+{
+   height: 4px;
+   background-color: white;
+   margin: 5px 0px;
+   border-radius: 25px;
+   transition: all 0.3s;
+  
+}
+.nav{
+    width: 30px;
+    display: block;
+    margin:0 0 0 1em;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+   
+}
+.hidden_one{
+  width: 30px;
+  display: block;
+  margin:0 0 0 1em;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+ 
+}
+.one{
+    width:30px ;
+}
+.two{
+    width: 20px;
+}
+.three{
+    width: 25px;
+}
+.four{
+  width: 15px;
+  display: none;
+  padding: 6px;
+}
+.nav:hover div{
+    width: 30px;
+}
+.yusiff{
+    height: 35vh;
+    transition: all 1s;
+}
+.responsive li{ 
+    margin: 36px 0px 10px 0px;
+    width: 20vw;
+    text-align: center;
+    list-style: none;
+    
+}
+.responsive li a{
+    text-decoration: none;
+    color: white;
+
+   font-family: 'Rubik', sans-serif;
+    
+}
+.responsive li a:hover{
+   color: #A2D5AB;
+   transition: all 0.6s;
+   font-size: 20px;
+    
+}
+
+.navbarrr a {
+    position: relative;
+    color: #fff;
+  }
+  
+  .navbarrr a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: px;
+    top: 23px;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.45s ease-out;
+  }
+  
+  .navbarrr a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  /* about Kurdistan section (Page 2) */
+
+  .about{
+      margin-top: 0px;
+      min-height: 100vh;
+      width: 100%;
+      background-image: url(images/592662Image1.jpg);
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+  }
+  header{
+        position: sticky;
+        top: 0px;
+        border-radius: 20px;
+        z-index: 100;
+      }   
+
+   /* Kurdistan tourism places (Page 3) */
+  .travel{
+        margin-top: 0px;
+        min-height: 116vh;
+        background-image: url(images/bekhal-waterfall_edited1.jpg);
+        background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment:fixed ;
+    }
+   .city{
+      width: 100%;
+    }
+    .city ul{
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      list-style: none;
+     
+     
+    }
+    .city ul li{
+     color: white;
+     min-width: 10vw;
+     text-align: center;
+     cursor: pointer ;
+     margin-top: 60px;
+     margin:60px 10px 0px 10px;
+     border: 2px solid #276678;
+    font-weight: bold;
+    font-size: 17px;
+     padding: 10px;
+     border-radius: 10px;
+    }
+    .city ul li:hover{
+   background: #276678;
+   transition: all 0.8s;
+     }
+     .city ul li:visited{
+      background: #276678;
+      transition: all 0.8s;
+        }
+        .erbil_detail{
+          display: flex;
+          flex-wrap: wrap;
+    }
+      .suli_detail{   
+        
+     display: flex; 
+   flex-wrap: wrap; 
+   display: none;  
+    }
+    .duhok_detail{   
+   
+   display: flex; 
+ flex-wrap: wrap;    
+ display: none;  
+
+  } 
+      .certi-card{
+          width: 390px;
+          height: 240px;
+          background-color: white;
+          border-radius: 10px;
+          margin:35px auto 35px auto;
+          position: relative;
+          transition: 1s;
+         
+      }
+      .certi img{
+          height: 240px;
+          width: 390px;
+          border-radius: 10px;
+          transition: all 0.6s;
+          object-fit: cover;
+      }
+      .certi-card:hover{
+        transition: all 1s;
+        cursor: pointer;
+        height: 390px;
+       
+       
+      }
+      .about_city{
+        width: 100%;
+        transition: all 1s;
+       opacity: 0;
+      }
+      .about_city h1{
+        text-align: center;
+        color: black;
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+       
+      }
+      .about_city p{
+       
+        text-align: center;
+        color: black;
+        font-family: 'Rubik', sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-justify: justify;     
+       
+       }
+       .certi-card:hover .about_city{ 
+       opacity: 1;
+       transition: 1s;
+      
+      }
+    /* Universities at kurdistan(Page 4) */
+      .university {
+        background-image: url(images/sotan_university.jpg);
+        width: 100%;
+       min-height: 100vh;
+       background-position: bottom;
+       background-repeat: no-repeat;
+      background-attachment: fixed;
+        background-size: cover;
+    }
+    
+    .university{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .university .content{
+        
+        color: aliceblue;
+        font-family: 'Roboto Serif', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+        margin: 40px 0px 20px 0px;
+      }
+      .card
+      {
+          background-color: #ffffff;
+          height: 350px;
+          min-width:  365px;
+          margin:100px 46px 100px 46px;
+          position: relative;
+          border-radius: 12px;
+          transition: all 0.8s;
+      }
+    .university img{
+        height: 300px;
+        width: 320px;
+        position: absolute;
+        left: 25px;
+        top: -30px;
+        border-radius: 12px;
+        transition: all 0.5s;
+        box-shadow: 8px 8px 10px #333;
+    
+    }
+    
+    .card:hover img{
+     
+        border-radius: 50%;
+        transform: rotate(360deg);
+        top: -100px;
+        box-shadow: none;
+    }
+    .card:hover{
+        height: 400px;
+        
+        cursor: pointer;
+    }
+    .container{
+        text-align: center;
+        transition: all 1s;
+        position: absolute;
+        bottom: 110px;
+        padding: 10px;
+        width: 100%;
+      opacity: 0;
+      line-height: 19px;
+        
+    }
+    .container h1{
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        position: relative;
+        top: 76px;
+        font-size: 22px;
+        
+    }
+    .container p{
+        position: relative;
+        top: 80px;
+        font-family: 'Times New Roman', Times, serif;
+     
+    }
+    .container a{
+        position: relative;
+        top: 100px;
+        list-style: none;
+        text-decoration: none;
+        color:#2E4C6D ;
+        font-weight: bold;
+        border: 2px solid #2E4C6D;
+        padding: 6px;
+        border-radius: 10px;
+        transition: all 1s;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container a:hover{
+        background-color: #2E4C6D;
+        color: white;
+        box-shadow: 0px 3px 8px #2E4C6D;
+    }    
+    .card:hover .container{
+      
+        opacity: 1;
+        
+    }
+
+    .celebrate {
+      background-image: url(images/abstract\ android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-qhfwv-3542x2174.jpg);
+      width: 100%;
+     min-height: 100vh;
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+      background-size: cover;
+      background-position: top;
+      
+  } 
+footer{
+    min-height:6vh;
+    width: 100%;
+    background-color: #417D7A;
+  }
+  footer p{
+    color: aliceblue;
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 3px;
+ 
+
+  }
+  footer a{
+    color: aliceblue;
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 2px;
+    text-decoration: none;
+        transition: all 0.7s;
+  }
+  footer a:hover{
+    color:#000;
+    transition: all 0.7s;
+    font-weight: bold;
+  }
